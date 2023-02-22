@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
             mSocket = SocketApplication.get()
             mSocket.connect()
         }
+
     }
 
     override fun onResume() {
